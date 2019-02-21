@@ -1,0 +1,17 @@
+{
+  "name": "react-chartjs-2",
+  "license": "MIT",
+  "tags": [
+    "react",
+    "chartjs"
+  ],
+  "classPath": "src",
+  "contributors": [
+    "kevinresol"
+  ],
+  "releasenote": "initial release",
+  "version": "0.0.0",
+  "dependencies": {
+    "react-next": ""
+  }
+}
