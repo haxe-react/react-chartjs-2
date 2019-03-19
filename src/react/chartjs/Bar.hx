@@ -2,7 +2,7 @@ package react.chartjs;
 
 import react.ReactComponent;
 
-@:jsRequire('react-chartjs-2', 'Bar')
+#if react_global @:native('ReactChartjs2.Bar') #else @:jsRequire('react-chartjs-2', 'Bar') #end
 extern class Bar extends ReactComponentOfProps<{
 	> ChartProps,
 }> {}

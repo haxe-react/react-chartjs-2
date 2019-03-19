@@ -2,7 +2,7 @@ package react.chartjs;
 
 import react.ReactComponent;
 
-@:jsRequire('react-chartjs-2', 'Scatter')
+#if react_global @:native('ReactChartjs2.Scatter') #else @:jsRequire('react-chartjs-2', 'Scatter') #end
 extern class Scatter extends ReactComponentOfProps<{
 	> ChartProps,
 }> {}
